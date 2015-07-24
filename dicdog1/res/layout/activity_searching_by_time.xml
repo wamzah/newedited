@@ -1,0 +1,170 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        
+    tools:context="com.example.docdig.DoctorsActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="417dp"
+        android:layout_height="55dp"
+        android:layout_x="-30dp"
+        android:layout_y="-6dp"
+        android:background="#FFFFFF" />
+ 
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="3dp"
+        android:layout_y="5dp"
+        android:src="@drawable/logohell" />   
+    
+
+    
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_y="50dp"
+        android:alpha="1"
+        android:background="@drawable/textv2" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="184dp"
+        android:layout_height="30dp"
+        android:layout_x="15dp"
+        android:layout_y="60dp"
+        android:text="Search Doctor By Time"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#FFFFFF"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="218dp"
+        android:layout_height="30dp"
+        android:layout_x="15dp"
+        android:layout_y="85dp"
+        android:text="Choose Hospital"
+        android:textColor="#FFFFFF"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="14dp"
+        android:typeface="sans" />
+
+    <Spinner
+        android:id="@+id/spinnerHospital2"
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:layout_x="15dp"
+        android:layout_y="101dp"     
+        android:background="@android:drawable/btn_dropdown"
+        
+         />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="218dp"
+        android:layout_height="30dp"
+        android:layout_x="15dp"
+        android:layout_y="145dp"
+        android:textColor="#FFFFFF"
+        android:text="Choose Speciality"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="14dp"
+        android:typeface="sans" />
+
+    <Spinner
+        android:id="@+id/spinnerSpeciality2"
+           android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:layout_x="15dp"
+        android:layout_y="160dp"    
+        android:background="@android:drawable/btn_dropdown" />
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="218dp"
+        android:layout_height="30dp"
+        android:layout_x="15dp"
+        android:layout_y="205dp"
+        android:textColor="#FFFFFF"
+        android:text="Select Time/Date"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="14dp"
+        android:typeface="sans" />
+    <Button
+        android:id="@+id/buttondate"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_x="45dp"
+        android:layout_y="224dp"
+        android:text="Select Date" 
+        android:textColor="#F8FBFB"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:typeface="sans"         
+        android:background="#3391E7"/>
+
+    <Button
+        android:id="@+id/buttontime"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_x="175dp"
+        android:layout_y="224dp"
+        android:text="Select Time" 
+        android:textColor="#F8FBFB"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:typeface="sans"         
+        android:background="#3391E7"/>
+
+    
+    
+    <Button
+        android:id="@+id/buttonsearch"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+     android:layout_x="125dp"
+        android:layout_y="330dp"
+        android:text="Search"
+        android:textColor="#F8FBFB"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:typeface="sans"         
+        android:background="#3391E7"/>
+
+    <Button
+        android:id="@+id/buttonHome"
+        android:layout_width="43dp"
+        android:layout_height="38dp"
+        android:layout_x="270dp"
+        android:layout_y="5dp"
+        android:background="@drawable/homelogo" />
+
+
+<TextView
+        android:id="@+id/TextView78"
+        android:layout_width="218dp"
+        android:layout_height="30dp"
+        android:layout_x="15dp"
+        android:layout_y="265dp"
+        android:text="Choose Gender"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#FFFFFF"
+        android:textSize="14dp"
+        android:typeface="sans" />
+    <Spinner
+        android:id="@+id/genderSpinner"
+          android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:layout_x="15dp"
+        android:layout_y="280dp"
+        android:background="@android:drawable/btn_dropdown" />   
+</AbsoluteLayout>

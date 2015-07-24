@@ -1,0 +1,32 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/border1"    
+    tools:context="com.example.docdig.Landingpage" >
+
+    
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="300dp"        
+        android:layout_y="30dp"
+        android:paddingTop="70dp"
+        android:paddingLeft="10dp"
+        android:src="@drawable/main"
+         />
+
+  
+
+    <ProgressBar
+        android:id="@+id/progress"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:layout_x="0dp"
+        android:layout_y="400dp"
+        android:max="100"
+        android:progress="45"
+        android:progressDrawable="@layout/layerlist" />
+
+</AbsoluteLayout>
